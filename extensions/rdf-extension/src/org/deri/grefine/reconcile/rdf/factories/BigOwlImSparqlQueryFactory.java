@@ -72,7 +72,7 @@ public class BigOwlImSparqlQueryFactory extends AbstractSparqlQueryFactory{
 		writer.endObject();
 	}
 
-	private static final String DEFAULT_BIGOWLIM_INDEX_PROPERTY = "http://www.ontotext.com/luceneQuery";
+	private static final String DEFAULT_BIGOWLIM_INDEX_PROPERTY = "http://www.ontotext.com/owlim/lucene#text";
 	private static final String RECONCILE_SIMPLE_QUERY_TEMPLATE = 
 		"PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> "+
 		"SELECT ?entity ?label " +
